@@ -5,11 +5,7 @@ This project is a powerful chatbot that can answer your questions about any YouT
 
 The app is built with `Streamlit` and `LangChain`, and features a robust backend that can handle multi-language transcripts and on-the-fly translation.
 
-<!-- ![Image](image/ui.png) -->
-<p align="center">
-  <img src="image/ui.png" alt="UI Screenshot" width="400" 
-       style="border: 2px solid #969696ff; border-radius: 10px;">
-</p>
+![Image](image/ui_w.png)
 
 ## **✨ Features ✨**
 
@@ -59,7 +55,7 @@ This project was initially built using a `LangChain ReAct Agent` to orchestrate 
 The current architecture uses simple, direct Python function calls (`get_video_id() -> get_transcript() -> split_transcript()`). This is ~99% cheaper, infinitely faster, and 100% reliable.
 
 
-<font size=10>Key Takeaway: Don't use a complex, expensive agent for a task that can be accomplished with a simple, deterministic script.</font>
+<font size=20>Key Takeaway: Don't use a complex, expensive agent for a task that can be accomplished with a simple, deterministic script.</font>
 
 
 ## **⚙️ Technology Stack**
