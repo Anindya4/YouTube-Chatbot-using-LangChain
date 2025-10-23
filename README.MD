@@ -55,7 +55,7 @@ This project was initially built using a `LangChain ReAct Agent` to orchestrate 
 The current architecture uses simple, direct Python function calls (`get_video_id() -> get_transcript() -> split_transcript()`). This is ~99% cheaper, infinitely faster, and 100% reliable.
 
 
-<font size=20>Key Takeaway: Don't use a complex, expensive agent for a task that can be accomplished with a simple, deterministic script.</font>
+<span style="font-size:24px;">Key Takeaway: Don't use a complex, expensive agent for a task that can be accomplished with a simple, deterministic script.</span>
 
 
 ## **⚙️ Technology Stack**
