@@ -1,0 +1,7 @@
+my_env
+*.vscode
+*.env
+*.bin
+__pycache__/
+*.pyc
+orchestration/agent.py
