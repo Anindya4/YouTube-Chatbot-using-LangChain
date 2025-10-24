@@ -52,7 +52,7 @@ if youtube_b64 and bot_b64:
     </div>
     """, unsafe_allow_html=True)
 else:
-    st.warning("Could not find or encode 'youtube.png' or 'bot.png' for Solution 2. Please add them to your project folder.")
+    st.warning("Could not find or encode 'youtube.png' or 'bot.png'")
 
 
 
